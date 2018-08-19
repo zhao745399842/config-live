@@ -7,5 +7,4 @@ spring:
     name: mtlive
 server:
   port: 8001
-
 env: test
