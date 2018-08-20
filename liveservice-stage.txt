@@ -1,11 +1,12 @@
 spring:
   application:
-    name: liveclient
+    name: liveservice
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 server:
-  port: 8101
+  port: 8011
 
-env: test
+env: stage
+
